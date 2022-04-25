@@ -1,0 +1,13 @@
+#≈‰÷√ ˝æ›‘¥
+spring:
+    datasource:
+        driver-class-name: com.mysql.jdbc.Driver
+        username: root
+        password: ROOT
+        url: jdbc:mysql://127.0.0.1:3306/smbms?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=UTC
+#mybatis≈‰÷√
+mybatis-plus:
+  type-aliases-package: com.hz.pojo
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: false #Õ’∑Â
